@@ -12,7 +12,7 @@ Given any number of possible outcomes, the *QRNG* finds the required number of q
 - **Quantum Randomness**: Generates random numbers using quantum superposition and measurement.
 - **Large Numbers**: The program is designed with circuit runs of at most 10 qubits, so we can generate  large numbers. However, larger numbers require more RAM and processing time. 
 - **Error Mitigation**: Incorporates measurement error mitigation to improve the reliability of results and an *optional custom gate error mitigation*. Measurement error mitigation is managed through the [M3 library](https://qiskit.github.io/qiskit-addon-mthree/).
-- **Customizable Backend**: Supports both IBM quantum backends and Aer simulator with noise modeling.
+- **Real Backend Simulation**: Supports Aer simulator of real IBM quantum processors.
 
 ## Requirements
 - Python 3.8+
