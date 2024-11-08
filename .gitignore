@@ -1,0 +1,15 @@
+# Ignore log files and temp files
+*.log
+*.tmp
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore system files
+.DS_Store
+
+venv/
